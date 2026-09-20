@@ -3,3 +3,4 @@ __vsc_prompt_cmd_original
 find -name header.png
 find -name footer.jpeg
 mv images/footer.jpeg client/assets/images
+find
