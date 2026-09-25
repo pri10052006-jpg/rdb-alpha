@@ -1,0 +1,325 @@
+cd /workspace/project
+echo ".freeCodeCamp/test/.cwd" >> .gitignore
+echo ".freeCodeCamp/test/.next_command" >> .gitignore
+git add .
+git commit -m "Complete Celestial Bodies Database"
+git pull origin master --rebase
+git stash
+git pull origin master --rebase
+git reset --hard HEAD
+git status
+__vsc_prompt_cmd_original
+git restore .freeCodeCamp/test/.cwd
+git status
+git rm --cached .freeCodeCamp/test/.cwd
+git status
+git add .freeCodeCamp/test/.cwd
+git add -f .freeCodeCamp/test/.cwd
+git status
+git status
+git add -f .freeCodeCamp/test/.cwd
+git add -f .freeCodeCamp/test/.cwd
+git commit -m "Save completed Celestial Bodies Database"
+git status
+git commit -m "Save completed Celestial Bodies Database"
+git add -f .freeCodeCamp/test/.cwd
+git commit -m "Save completed Celestial Bodies Database"
+git pull origin master --rebase
+git stash push -m "save cwd temporarily"
+git pull origin master --rebase
+git stash push -u -m "temporary save"
+git status
+git pull origin master --rebase
+git add -f .freeCodeCamp/test/.cwd
+git status
+git add -f .freeCodeCamp/test/.cwd
+git status
+pkill -f freeCodeCamp
+pkill -f freeCodeCamp
+git status
+git rm --cached .freeCodeCamp/test/.cwd
+git rm --cached -f .freeCodeCamp/test/.cwd
+git status
+git commit -m "Stop tracking freeCodeCamp temporary file"
+git status
+git pull origin master --rebase
+git checkout --ours .vscode/settings.json
+git add .vscode/settings.json
+git rebase --continue
+__vsc_prompt_cmd_original
+camper: /project$ git pull origin master --rebase
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+camper: /project$ git stash push -m "save cwd temporarily"
+Saved working directory and index state On master: save cwd temporarily
+camper: /project$ git pull origin master --rebase
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+camper: /project$ git stash push -u -m "temporary save"
+Saved working directory and index state On master: temporary save
+camper: /project$ git status
+On branch master
+Changes not staged for commit:
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+modified: .freeCodeCamp/test/.cwd
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+camper: /project$ git pull origin master --rebase
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+camper: /project$ git add -f .freeCodeCamp/test/.cwd
+camper: /project$ git status
+On branch master
+Changes to be committed:
+__vsc_prompt_cmd_original
+modified: .freeCodeCamp/test/.cwd
+__vsc_prompt_cmd_original
+Changes not staged for commit:
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+modified: .freeCodeCamp/test/.cwd
+__vsc_prompt_cmd_original
+camper: /project$ git add -f .freeCodeCamp/test/.cwd
+camper: /project$ git status
+On branch master
+Changes to be committed:
+__vsc_prompt_cmd_original
+modified: .freeCodeCamp/test/.cwd
+__vsc_prompt_cmd_original
+Changes not staged for commit:
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+modified: .freeCodeCamp/test/.cwd
+__vsc_prompt_cmd_original
+camper: /project$ pkill -f freeCodeCamp
+camper: /project$ pkill -f freeCodeCamp
+camper: /project$ git status
+On branch master
+Changes to be committed:
+__vsc_prompt_cmd_original
+modified: .freeCodeCamp/test/.cwd
+__vsc_prompt_cmd_original
+Changes not staged for commit:
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+modified: .freeCodeCamp/test/.cwd
+__vsc_prompt_cmd_original
+camper: /project$ git rm --cached .freeCodeCamp/test/.cwd
+error: the following file has staged content different from both the
+file and the HEAD:
+.freeCodeCamp/test/.cwd
+__vsc_prompt_cmd_original
+camper: /project$ git rm --cached -f .freeCodeCamp/test/.cwd
+rm '.freeCodeCamp/test/.cwd'
+camper: /project$ git status
+On branch master
+Changes to be committed:
+__vsc_prompt_cmd_original
+deleted: .freeCodeCamp/test/.cwd
+__vsc_prompt_cmd_original
+camper: /project$ git commit -m "Stop tracking freeCodeCamp temporary file"
+[master 9ed879d] Stop tracking freeCodeCamp temporary file
+__vsc_prompt_cmd_original
+delete mode 100644 .freeCodeCamp/test/.cwd
+camper: /project$ git status
+On branch master
+nothing to commit, working tree clean
+camper: /project$ git pull origin master --rebase
+From https://github.com/pri10052006-jpg/rdb-alpha
+freeCodeCamp toms-website universe.sql website-boilerplate branch
+Resolve all conflicts manually, mark them as resolved with
+"git add/rm <conflicted_files>", then run "git rebase --continue".
+You can instead skip this commit: run "git rebase --skip".
+To abort and get back to the state before "git rebase", run "git rebase --abort".
+camper: /project$ git checkout --ours .vscode/settings.json
+Updated 1 path from the index
+camper: /project$ git add .vscode/settings.json
+camper: /project$ git rebase --continue
+Applying: INIT
+Applying: 1.1
+Applying: Save progress: 1.1
+Applying: complete
+Applying: Complete Celestial Bodies Database
+Using index info to reconstruct a base tree...
+Falling back to patching base and 3-way merge...
+error: The following untracked working tree files would be overwritten by merge:
+.freeCodeCamp/test/.cwd
+Please move or remove them before you merge.
+Aborting
+error: Failed to merge in the changes.
+Patch failed at 0005 Complete Celestial Bodies Database
+hint: Use 'git am --show-current-patch' to see the failed patch
+Resolve all conflicts manually, mark them as resolved with
+"git add/rm <conflicted_files>", then run "git rebase --continue".
+You can instead skip this commit: run "git rebase --skip".
+To abort and get back to the state before "git rebase", run "git rebase --abort".
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+camper: /project$ camper: /project$ git pull origin master --rebase
+bash: camper:: command not found
+camper: /project$ error: cannot pull with rebase: You have unstaged changes.
+bash: error:: command not found
+camper: /project$ error: please commit or stash them.
+bash: error:: command not found
+camper: /project$ camper: /project$ git add -f .freeCodeCamp/test/.cwd
+bash: camper:: command not found
+camper: /project$ camper: /project$ git status
+bash: camper:: command not found
+camper: /project$ On branch master
+bash: On: command not found
+camper: /project$ Changes to be committed:
+bash: Changes: command not found
+__vsc_prompt_cmd_original
+bash: use: command not found
+camper: /project$ modified: .freeCodeCamp/test/.cwd
+bash: modified:: command not found
+camper: /project$
+camper: /project$ Changes not staged for commit:
+bash: Changes: command not found
+__vsc_prompt_cmd_original
+bash: use: command not found
+__vsc_prompt_cmd_original
+bash: use: command not found
+camper: /project$ modified: .freeCodeCamp/test/.cwd
+bash: modified:: command not found
+camper: /project$
+camper: /project$ camper: /project$ git add -f .freeCodeCamp/test/.cwd
+bash: camper:: command not found
+camper: /project$ camper: /project$ git status
+bash: camper:: command not found
+camper: /project$ On branch master
+bash: On: command not found
+camper: /project$ Changes to be committed:
+bash: Changes: command not found
+__vsc_prompt_cmd_original
+bash: use: command not found
+camper: /project$ modified: .freeCodeCamp/test/.cwd
+bash: modified:: command not found
+camper: /project$
+camper: /project$ Changes not staged for commit:
+bash: Changes: command not found
+__vsc_prompt_cmd_original
+bash: use: command not found
+__vsc_prompt_cmd_original
+bash: use: command not found
+camper: /project$ modified: .freeCodeCamp/test/.cwd
+bash: modified:: command not found
+camper: /project$
+camper: /project$ camper: /project$ pkill -f freeCodeCamp
+bash: camper:: command not found
+camper: /project$ camper: /project$ pkill -f freeCodeCamp
+bash: camper:: command not found
+camper: /project$ camper: /project$ git status
+bash: camper:: command not found
+camper: /project$ On branch master
+bash: On: command not found
+camper: /project$ Changes to be committed:
+bash: Changes: command not found
+__vsc_prompt_cmd_original
+bash: use: command not found
+camper: /project$ modified: .freeCodeCamp/test/.cwd
+bash: modified:: command not found
+camper: /project$
+camper: /project$ Changes not staged for commit:
+bash: Changes: command not found
+__vsc_prompt_cmd_original
+bash: use: command not found
+__vsc_prompt_cmd_original
+bash: use: command not found
+camper: /project$ modified: .freeCodeCamp/test/.cwd
+bash: modified:: command not found
+camper: /project$
+camper: /project$ camper: /project$ git rm --cached .freeCodeCamp/test/.cwd
+bash: camper:: command not found
+camper: /project$ error: the following file has staged content different from both the
+bash: error:: command not found
+camper: /project$ file and the HEAD:
+__vsc_prompt_cmd_original
+camper: /project$ .freeCodeCamp/test/.cwd
+bash: .freeCodeCamp/test/.cwd: Permission denied
+__vsc_prompt_cmd_original
+bash: use: command not found
+camper: /project$ camper: /project$ git rm --cached -f .freeCodeCamp/test/.cwd
+bash: camper:: command not found
+camper: /project$ rm '.freeCodeCamp/test/.cwd'
+camper: /project$ camper: /project$ git status
+bash: camper:: command not found
+camper: /project$ On branch master
+bash: On: command not found
+camper: /project$ Changes to be committed:
+bash: Changes: command not found
+__vsc_prompt_cmd_original
+bash: use: command not found
+camper: /project$ deleted: .freeCodeCamp/test/.cwd
+bash: deleted:: command not found
+camper: /project$
+camper: /project$ camper: /project$ git commit -m "Stop tracking freeCodeCamp temporary file"
+bash: camper:: command not found
+camper: /project$ [master 9ed879d] Stop tracking freeCodeCamp temporary file
+bash: [master: command not found
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+camper: /project$ camper: /project$ git pull origin master --rebase
+bash: camper:: command not found
+camper: /project$ error: cannot pull with rebase: You have unstaged changes.
+bash: error:: command not found
+camper: /project$ error: please commit or stash them.
+bash: error:: command not found
+camper: /project$ camper: /project$ git stash push -m "save cwd temporarily"
+bash: camper:: command not found
+camper: /project$ Saved working directory and index state On master: save cwd temporarily
+bash: Saved: command not found
+camper: /project$ camper: /project$ git pull origin master --rebase
+bash: camper:: command not found
+camper: /project$ error: cannot pull with rebase: You have unstaged changes.
+bash: error:: command not found
+camper: /project$ error: please commit or stash them.
+bash: error:: command not found
+camper: /project$ camper: /project$ git stash push -u -m "temporary save"
+bash: camper:: command not found
+camper: /project$ Saved working directory and index state On master: temporary save
+bash: Saved: command not found
+camper: /project$ camper: /project$ git status
+bash: camper:: command not found
+camper: /project$ On branch master
+bash: On: command not found
+camper: /project$ Changes not staged for commit:
+bash: Changes: command not found
+__vsc_prompt_cmd_original
+bash: use: command not found
+__vsc_prompt_cmd_original
+bash: use: command not found
+camper: /project$ modified: .freeCodeCamp/test/.cwd
+bash: modified:: command not found
+camper: /project$
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+camper: /project$ delete mode 100644 .freeCodeCamp/test/.cwd
+bash: delete: command not found
+camper: /project$ camper: /project$ git status
+bash: camper:: command not found
+camper: /project$ On branch master
+bash: On: command not found
+camper: /project$ nothing to commit, working tree clean
+bash: nothing: command not found
+camper: /project$ camper: /project$ git pull origin master --rebase
+bash: camper:: command not found
+camper: /project$ From https://github.com/pri10052006-jpg/rdb-alpha
+git status
+git rebase --continue
+git rebase --skip
+git rm -f .freeCodeCamp/test/.cwd .freeCodeCamp/test/.cwd~complete
+git status
+git add -u .freeCodeCamp/test/.cwd
+rm -f .freeCodeCamp/test/.cwd~complete
+git status
+git restore --staged .freeCodeCamp/test/.cwd
+git status
+git rebase --continue
+git rebase --skip
+git rebase --skip
+git rebase --skip
+git status
+git push -u origin master
