@@ -223,3 +223,4 @@ $(echo $CUSTOMER_NAME | sed -r 's/^ *| *$//g')
 ./bike-shop.sh
 ./bike-shop.sh
 __vsc_prompt_cmd_original
+./bike-shop.sh
