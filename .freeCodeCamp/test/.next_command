@@ -183,3 +183,7 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 [[ ! 11 =~ ^[0-9]+$ ]]
 ./bike-shop.sh
 ./bike-shop.sh
+o the rent menu, enter a bike that isn't available to make sure it's working. When you are done, exit the program.
+__vsc_prompt_cmd_original
+1. Enter 3
+./bike-shop.sh
