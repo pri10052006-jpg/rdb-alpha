@@ -48,3 +48,5 @@ chmod +x bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
+UPDATE bikes SET available = false WHERE available = true
+psql --username=freecodecamp --dbname=bikes
