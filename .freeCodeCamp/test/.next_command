@@ -181,3 +181,4 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 [[ 11 =~ ^[0-9]$ ]]
 [[ 11 =~ ^[0-9]+$ ]]
 [[ ! 11 =~ ^[0-9]+$ ]]
+./bike-shop.sh
