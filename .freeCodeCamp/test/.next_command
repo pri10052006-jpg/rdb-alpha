@@ -43,3 +43,4 @@ psql --username=freecodecamp --dbname=postgres
 touch bike-shop.sh
 chmod +x bike-shop.sh
 ./bike-shop.sh
+./bike-shop.sh
