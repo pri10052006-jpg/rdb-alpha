@@ -187,3 +187,7 @@ o the rent menu, enter a bike that isn't available to make sure it's working. Wh
 __vsc_prompt_cmd_original
 1. Enter 3
 ./bike-shop.sh
+./bike-shop.sh
+./bike-shop.sh
+./bike-shop.sh
+./bike-shop.sh
