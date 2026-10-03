@@ -200,3 +200,4 @@ echo '28 | Mountain'
 echo '28 | Mountain'
 echo '28 | Mountain'
 echo '28 | Mountain'
+echo $BIKE_INFO
