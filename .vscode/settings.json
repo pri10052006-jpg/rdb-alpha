@@ -35,8 +35,13 @@
     "**/.DS_Store": true,
     ".vscode": true,
     ".gitignore": true,
+<<<<<<< HEAD
     ".freeCodeCamp": true,
     "learn-bash-and-sql-by-building-a-bike-rental-shop": true,
+=======
+    "freeCodeCamp": true,
+    "learn-bash-by-building-a-boilerplate": true,
+>>>>>>> origin/master
     ".gitpod.Dockerfile": true,
     ".gitpod.yml": true,
     "CHANGELOG.md": true,
